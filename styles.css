@@ -18,18 +18,19 @@ body {
   padding: 25px;
   width: 350px;
   border-radius: 10px;
+  box-shadow: 1px 5px rgba(184, 184, 184, 0.466);
 }
 .calc-text {
-  height: 100px;
+  height: auto;
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 5px 10px;
   background: rgba(255, 255, 255, 0.581);
   border-radius: 5px;
 }
 
 .calc-text p {
   width: 100%;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: end;
   background: transparent;
   color: #181818;
@@ -37,6 +38,9 @@ body {
   outline: none;
   word-wrap: break-word;
   word-break: break-all;
+}
+.user-input {
+  padding: 5px;
 }
 #error {
   width: 100%;
@@ -60,8 +64,7 @@ button {
   width: 65px;
 }
 
-button:active,
-button:focus {
+button:active {
   filter: brightness(120%);
 }
 
